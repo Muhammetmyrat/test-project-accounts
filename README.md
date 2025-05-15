@@ -36,3 +36,19 @@ pnpm run build
 ```bash
 pnpm run preview
 ```
+
+## API Mocking with JSON Server (localhost:3001)
+
+### Start development server
+
+```bash
+pnpm run dev:api
+```
+
+## Environment Variables
+
+### Create .env file
+
+```bash
+VITE_API_BASE_URL=http://localhost:3001
+```

@@ -7,18 +7,66 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+.pnpm-store/
+.cache/
+.bin/
+
+# Build directories
+dist/
+dist-ssr/
+build/
+out/
+.coverage/
+
+# Debug files
 *.local
+.env.local
+.env.*.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*.swp
+
+# System Files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Vite/Node cache
+.temp/
+.tmp/
+.temp/
+.tmp/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# ESLint/Prettier cache
+.eslintcache
+.prettiercache
+
+
+# Local development files
+.env
+.env.development
+.env.test
+!.env.example
+
+# Debugger files
+.vscode/launch.json
